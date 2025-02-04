@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     '@': fileURLToPath(new URL('./', import.meta.url)),
   },
   app: {
-    baseURL: '/https://popescuion.github.io/pixeli/',
+    baseURL: '/https://popescuion.github.io/pixel/',
     head: {
       title: 'webfolio',
       htmlAttrs: {
