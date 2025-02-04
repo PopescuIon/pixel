@@ -1,0 +1,1 @@
+const s=[{img:"/assets/imgs/works/1/1.jpg",title:"Mails",subTitle:"Mobile app"},{img:"/assets/imgs/works/1/5.jpg",title:"Enzsan",subTitle:"Obertauern"},{img:"/assets/imgs/works/1/3.jpg",title:"Zumar",subTitle:"Web Agency"},{img:"/assets/imgs/works/1/6.jpg",title:"Bono",subTitle:"Mobile app"}];export{s as d};

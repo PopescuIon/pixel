@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     '@': fileURLToPath(new URL('./', import.meta.url)),
   },
   app: {
-    baseURL: '/https://popescuion.github.io/pixel/',
+     baseURL: '/pixel/',
+     buildAssetsDir: 'assets', 
     head: {
       title: 'webfolio',
       htmlAttrs: {
@@ -74,6 +75,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+  
   webpack: {
     extractCSS: true,
     optimization: {
