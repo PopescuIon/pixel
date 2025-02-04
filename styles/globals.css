@@ -1,0 +1,31 @@
+.cardd {
+  break-inside: avoid;
+  margin-bottom: 2.3em;
+}
+.container3 {
+  column-count: 3;
+  column-gap: 2.3em;
+}
+.cardd {
+  break-inside: avoid;
+  margin-bottom: 2.3em;
+}
+/* @media (max-width: 600px) {
+  .container3 {
+    column-count: 1;
+  }
+} */
+/* .container2 {
+  column-count: 2;
+  column-gap: 2.3em;
+} */
+
+.cardd {
+  break-inside: avoid;
+  margin-bottom: 2.3em;
+}
+/* @media (max-width: 600px) {
+  .container2 {
+    column-count: 1;
+  }
+} */
