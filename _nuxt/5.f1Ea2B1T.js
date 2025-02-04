@@ -1,1 +1,0 @@
-import"./entry.t0AcTgot.js";const i=""+globalThis.__publicAssetsURL("assets/imgs/serv-icons/3.png"),o=""+globalThis.__publicAssetsURL("assets/imgs/serv-icons/4.png"),t=""+globalThis.__publicAssetsURL("assets/imgs/serv-icons/5.png");export{i as _,o as a,t as b};
