@@ -1,1 +1,0 @@
-import{p as s}from"./83yW8Q3r.js";const a=s("/assets/imgs/brands/c1.svg"),o=s("/assets/imgs/brands/c2.svg"),r=s("/assets/imgs/brands/c3.svg"),c=s("/assets/imgs/brands/c4.svg"),i=s("/assets/imgs/brands/c5.svg");export{a as _,o as a,r as b,c,i as d};
