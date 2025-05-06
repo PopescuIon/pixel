@@ -47,7 +47,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="item-box radius-15 sm-mb50">
             <div class="icon-img-70 mb-40 opacity-3">
-              <img src="/assets/imgs/serv-icons/5.png" alt="" />
+             
+              <img :src="require('./assets/imgs/serv-icons/5.png')" alt="Service Icon">
             </div>
             <span class="mb-30 p-color">03 .</span>
             <h6 class="mb-20">Branding Design</h6>

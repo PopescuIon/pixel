@@ -1,29 +1,29 @@
-import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { eventHandler, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getQuery, createError, appendResponseHeader, getResponseStatusText } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/h3/dist/index.mjs';
-import { stringify, uneval } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/devalue/index.js';
-import { joinURL, withoutTrailingSlash } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/ufo/dist/index.mjs';
-import { renderSSRHead } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/@unhead/ssr/dist/index.mjs';
+import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///home/ipop/myProjects/pixel/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { eventHandler, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getQuery, createError, appendResponseHeader, getResponseStatusText } from 'file:///home/ipop/myProjects/pixel/node_modules/h3/dist/index.mjs';
+import { stringify, uneval } from 'file:///home/ipop/myProjects/pixel/node_modules/devalue/index.js';
+import { joinURL, withoutTrailingSlash } from 'file:///home/ipop/myProjects/pixel/node_modules/ufo/dist/index.mjs';
+import { renderSSRHead } from 'file:///home/ipop/myProjects/pixel/node_modules/@unhead/ssr/dist/index.mjs';
 import { u as useNitroApp, a as useRuntimeConfig, b as useStorage, g as getRouteRules } from './nitro/nitro-prerenderer.mjs';
-import { version, unref } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/vue/index.mjs';
-import { createServerHead as createServerHead$1 } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/@unhead/shared/dist/index.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/ofetch/dist/node.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/destr/dist/index.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/hookable/dist/index.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/scule/dist/index.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/klona/dist/index.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/defu/dist/defu.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/ohash/dist/index.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/dist/index.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/drivers/memory.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/drivers/lru-cache.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/radix3/dist/index.mjs';
+import { version, unref } from 'file:///home/ipop/myProjects/pixel/node_modules/vue/index.mjs';
+import { createServerHead as createServerHead$1 } from 'file:///home/ipop/myProjects/pixel/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin } from 'file:///home/ipop/myProjects/pixel/node_modules/@unhead/shared/dist/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/ofetch/dist/node.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/destr/dist/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/unenv/runtime/fetch/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/hookable/dist/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/scule/dist/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/klona/dist/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/defu/dist/defu.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/ohash/dist/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/dist/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/drivers/memory.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/radix3/dist/index.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/pathe/dist/index.mjs';
+import 'file:///home/ipop/myProjects/pixel/node_modules/pathe/dist/index.mjs';
 
 function defineRenderHandler(handler) {
   return eventHandler(async (event) => {
@@ -111,7 +111,7 @@ function createServerHead(options = {}) {
 
 const unheadPlugins = [];
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"http-equiv":"X-UA-Compatible","content":"IE=edge"},{"name":"keywords","content":"Vue Nuxtjs Template webfolio Multi-Purpose themeforest"},{"name":"description","content":"webfolio - Multi-Purpose Vue Nuxtjs Template"},{"name":"author","content":"Uicamp"}],"link":[{"rel":"shortcut icon","href":"/assets/imgs/favicon.ico"},{"rel":"stylesheet","href":"https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"},{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap"},{"rel":"stylesheet","href":"/assets/css/plugins.css"},{"rel":"stylesheet","href":"/assets/css/style.css"}],"style":[],"script":[{"src":"/assets/js/plugins.js"},{"src":"/assets/js/TweenMax.min.js"},{"src":"/assets/js/charming.min.js"},{"src":"/assets/js/countdown.js"},{"src":"/assets/js/ScrollTrigger.min.js"},{"src":"/assets/js/gsap.min.js"},{"src":"/assets/js/splitting.min.js"},{"src":"/assets/js/isotope.pkgd.min.js"},{"src":"/assets/js/imgReveal/imagesloaded.pkgd.min.js"},{"src":"/assets/js/ScrollSmoother.min.js"},{"src":"/assets/js/scripts.js","defer":true}],"noscript":[],"title":"webfolio","htmlAttrs":{"lang":"en"}};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"http-equiv":"X-UA-Compatible","content":"IE=edge"},{"name":"keywords","content":"Vue Nuxtjs Template webfolio Multi-Purpose themeforest"},{"name":"description","content":"webfolio - Multi-Purpose Vue Nuxtjs Template"},{"name":"author","content":"Uicamp"}],"link":[{"rel":"shortcut icon","href":"./assets/imgs/favicon.ico"},{"rel":"stylesheet","href":"https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"},{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap"},{"rel":"stylesheet","href":"./assets/css/plugins.css"},{"rel":"stylesheet","href":"./assets/css/style.css"}],"style":[],"script":[{"src":"./assets/js/plugins.js"},{"src":"./assets/js/TweenMax.min.js"},{"src":"./assets/js/charming.min.js"},{"src":"./assets/js/countdown.js"},{"src":"./assets/js/ScrollTrigger.min.js"},{"src":"./assets/js/gsap.min.js"},{"src":"./assets/js/splitting.min.js"},{"src":"./assets/js/isotope.pkgd.min.js"},{"src":"./assets/js/imgReveal/imagesloaded.pkgd.min.js"},{"src":"./assets/js/ScrollSmoother.min.js"},{"src":"./assets/js/scripts.js","defer":true}],"noscript":[],"title":"webfolio","htmlAttrs":{"lang":"en"}};
 
 const appRootId = "__nuxt";
 

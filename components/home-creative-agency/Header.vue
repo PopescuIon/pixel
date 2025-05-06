@@ -50,7 +50,7 @@
         <div class="col-lg-12">
           <div
             class="full-img bg-img"
-            data-background="/assets/imgs/header/2.jpg"
+            data-background="./assets/imgs/header/2.jpg"
           ></div>
         </div>
       </div>

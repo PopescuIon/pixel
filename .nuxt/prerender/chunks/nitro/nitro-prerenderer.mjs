@@ -1,26 +1,26 @@
-globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/ofetch/dist/node.mjs';
-import destr from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/scule/dist/index.mjs';
-import { klona } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/drivers/fs.mjs';
-import unstorage_47drivers_47memory from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/drivers/memory.mjs';
-import unstorage_47drivers_47lru_45cache from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/drivers/lru-cache.mjs';
-import unstorage_47drivers_47fs_45lite from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/unstorage/drivers/fs-lite.mjs';
-import { toRouteMatcher, createRouter } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/radix3/dist/index.mjs';
+globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler } from 'file:///home/ipop/myProjects/pixel/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/ipop/myProjects/pixel/node_modules/ofetch/dist/node.mjs';
+import destr from 'file:///home/ipop/myProjects/pixel/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///home/ipop/myProjects/pixel/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///home/ipop/myProjects/pixel/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file:///home/ipop/myProjects/pixel/node_modules/scule/dist/index.mjs';
+import { klona } from 'file:///home/ipop/myProjects/pixel/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///home/ipop/myProjects/pixel/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///home/ipop/myProjects/pixel/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file:///home/ipop/myProjects/pixel/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/drivers/fs.mjs';
+import unstorage_47drivers_47memory from 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/drivers/memory.mjs';
+import unstorage_47drivers_47lru_45cache from 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/drivers/lru-cache.mjs';
+import unstorage_47drivers_47fs_45lite from 'file:///home/ipop/myProjects/pixel/node_modules/unstorage/drivers/fs-lite.mjs';
+import { toRouteMatcher, createRouter } from 'file:///home/ipop/myProjects/pixel/node_modules/radix3/dist/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'file:///home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/node_modules/pathe/dist/index.mjs';
+import { dirname, resolve } from 'file:///home/ipop/myProjects/pixel/node_modules/pathe/dist/index.mjs';
 
 const inlineAppConfig = {
   "nuxt": {
-    "buildId": "c9f8cbb9-92fa-4aab-9298-429600f9ae92"
+    "buildId": "c84ee3bb-6c3a-4193-997a-f6412fa8cb9e"
   }
 };
 
@@ -31,7 +31,7 @@ const appConfig = defuFn(inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/pixel/",
-    "buildAssetsDir": "assets",
+    "buildAssetsDir": "assets/",
     "cdnURL": ""
   },
   "nitro": {
@@ -124,7 +124,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/home/ipop/myProjects/pixel/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -139,11 +139,11 @@ storage.mount('/assets', assets$1);
 storage.mount('internal:nuxt:prerender', unstorage_47drivers_47memory({"driver":"memory"}));
 storage.mount('internal:nuxt:prerender:island', unstorage_47drivers_47lru_45cache({"driver":"lruCache","max":1000}));
 storage.mount('internal:nuxt:prerender:payload', unstorage_47drivers_47lru_45cache({"driver":"lruCache","max":1000}));
-storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/.data/kv"}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/ipopo/Downloads/themeforest-mPC5Dk6t-webfolio-creative-portfolio-digital-agency-nuxtjs-template/Main_Files/webfolio-nuxtjs/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/home/ipop/myProjects/pixel/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/ipop/myProjects/pixel","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/ipop/myProjects/pixel/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/ipop/myProjects/pixel/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/ipop/myProjects/pixel/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -712,11 +712,11 @@ const _f4b49z = eventHandler((event) => {
   return readAsset(id);
 });
 
-const _lazy_tnmZ0T = () => import('../renderer.mjs');
+const _lazy_TMGA9t = () => import('../renderer.mjs');
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },
-  { route: '/**', handler: _lazy_tnmZ0T, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_TMGA9t, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

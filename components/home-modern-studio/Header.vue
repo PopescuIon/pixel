@@ -8,7 +8,7 @@
               <SwiperSlide>
                 <div
                   class="bg-img"
-                  data-background="/assets/imgs/header/s1.jpg"
+                  data-background="./assets/imgs/header/s1.jpg"
                   data-overlay-dark="3"
                 >
                   <a href="/project-details"></a>
@@ -17,7 +17,7 @@
               <SwiperSlide>
                 <div
                   class="bg-img"
-                  data-background="/assets/imgs/header/s2.jpg"
+                  data-background="./assets/imgs/header/s2.jpg"
                   data-overlay-dark="3"
                 >
                   <a href="/project-details"></a>
@@ -26,7 +26,7 @@
               <SwiperSlide>
                 <div
                   class="bg-img"
-                  data-background="/assets/imgs/header/s3.jpg"
+                  data-background="./assets/imgs/header/s3.jpg"
                   data-overlay-dark="3"
                 >
                   <a href="/project-details"></a>

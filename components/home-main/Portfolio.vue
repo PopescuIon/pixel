@@ -1,23 +1,16 @@
 <template>
-  <section
-    class="work-fade section-padding sub-bg bord-top-grd bord-bottom-grd"
-  >
+  <section class="work-fade section-padding sub-bg bord-top-grd bord-bottom-grd">
     <div class="container position-re">
       <div class="sec-head mb-80">
         <div class="d-flex align-items-center">
           <div>
             <span class="sub-title main-color mb-5">Our Portfolio</span>
             <h3 class="fw-600 fz-50 text-u d-rotate wow">
-              <span class="rotate-text"
-                >Selected <span class="fw-200"> Works.</span></span
-              >
+              <span class="rotate-text">Selected <span class="fw-200"> Works.</span></span>
             </h3>
           </div>
           <div class="ml-auto vi-more">
-            <a
-              href="/portfolio-gallery"
-              class="butn butn-sm butn-bord radius-30"
-            >
+            <a href="/portfolio-gallery" class="butn butn-sm butn-bord radius-30">
               <span>View All</span>
             </a>
             <span class="icon ti-arrow-top-right"></span>
@@ -39,56 +32,32 @@
               <SwiperSlide>
                 <div class="item">
                   <div class="img">
-                    <img
-                      src="/assets/imgs/works/1/1.jpg"
-                      alt=""
-                      class="radius-15"
-                    />
+                    <img src="/assets/imgs/works/1/1.jpg" alt="" class="radius-15" />
                   </div>
                   <div class="cont">
                     <h3>
-                      <span class="text sub-bg"
-                        >Mails
+                      <span class="text sub-bg">Mails
                         <span class="shap-left-top">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                         <span class="shap-right-bottom">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                       </span>
-                      <span class="text sub-bg"
-                        >Mobile app
+                      <span class="text sub-bg">Mobile app
                         <span class="shap-left-bottom">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                       </span>
@@ -99,56 +68,32 @@
               <SwiperSlide>
                 <div class="item">
                   <div class="img">
-                    <img
-                      src="/assets/imgs/works/1/5.jpg"
-                      alt=""
-                      class="radius-15"
-                    />
+                    <img src="/assets/imgs/works/1/5.jpg" alt="" class="radius-15" />
                   </div>
                   <div class="cont">
                     <h3>
-                      <span class="text sub-bg"
-                        >Enzsan
+                      <span class="text sub-bg">Enzsan
                         <span class="shap-left-top">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                         <span class="shap-right-bottom">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                       </span>
-                      <span class="text sub-bg"
-                        >Obertauern
+                      <span class="text sub-bg">Obertauern
                         <span class="shap-left-bottom">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                       </span>
@@ -159,56 +104,32 @@
               <SwiperSlide>
                 <div class="item">
                   <div class="img">
-                    <img
-                      src="/assets/imgs/works/1/3.jpg"
-                      alt=""
-                      class="radius-15"
-                    />
+                    <img src="/assets/imgs/works/1/3.jpg" alt="" class="radius-15" />
                   </div>
                   <div class="cont">
                     <h3>
-                      <span class="text sub-bg"
-                        >Zumar
+                      <span class="text sub-bg">Zumar
                         <span class="shap-left-top">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                         <span class="shap-right-bottom">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                       </span>
-                      <span class="text sub-bg"
-                        >Web Agency
+                      <span class="text sub-bg">Web Agency
                         <span class="shap-left-bottom">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                       </span>
@@ -219,56 +140,35 @@
               <SwiperSlide>
                 <div class="item">
                   <div class="img">
-                    <img
-                      src="/assets/imgs/works/1/6.jpg"
-                      alt=""
-                      class="radius-15"
-                    />
+
+                    <img :src="require('./assets/imgs/works/1/6.jpg')" alt="" class="radius-15">
+
+
                   </div>
                   <div class="cont">
                     <h3>
-                      <span class="text sub-bg"
-                        >Bono
+                      <span class="text sub-bg">Bono
                         <span class="shap-left-top">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
-                        </span>
+                        </span
                         <span class="shap-right-bottom">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                       </span>
-                      <span class="text sub-bg"
-                        >Mobile app
+                      <span class="text sub-bg">Mobile app
                         <span class="shap-left-bottom">
-                          <svg
-                            viewBox="0 0 11 11"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-11 h-11"
-                          >
+                          <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
                             <path
                               d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                              fill="#141414"
-                            ></path>
+                              fill="#141414"></path>
                           </svg>
                         </span>
                       </span>

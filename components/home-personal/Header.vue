@@ -1,7 +1,7 @@
 <template>
   <div
     class="header header-personal valign bg-img"
-    data-background="/assets/imgs/header/p0.jpg"
+    data-background="./assets/imgs/header/p0.jpg"
     data-overlay-dark="2"
   >
     <div class="container ontop">
