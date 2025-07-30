@@ -71,10 +71,10 @@ $(function () {
 
     if (bodyScroll > 300) {
       navbar.addClass('nav-scroll');
-      logo.attr('src', './assets/imgs/logo-dark.png');
+      logo.attr('src', 'assets/imgs/logo-dark.png');
     } else {
       navbar.removeClass('nav-scroll');
-      logo.attr('src', './assets/imgs/logo-light.png');
+      logo.attr('src', 'assets/imgs/logo-light.png');
     }
   });
 
