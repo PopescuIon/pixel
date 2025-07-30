@@ -7,8 +7,8 @@
             <Swiper v-bind="swiperGalleryImageOptions" class="swiper-container">
               <SwiperSlide>
                 <div
-                  class="bg-img"
-                  data-background="./assets/imgs/header/s1.jpg"
+                  class="bg-img" 
+                  :data-background="withBase('assets/imgs/header/s1.jpg')" 
                   data-overlay-dark="3"
                 >
                   <a href="/project-details"></a>
@@ -17,7 +17,7 @@
               <SwiperSlide>
                 <div
                   class="bg-img"
-                  data-background="./assets/imgs/header/s2.jpg"
+                  data-background="/assets/imgs/header/s2.jpg"
                   data-overlay-dark="3"
                 >
                   <a href="/project-details"></a>
@@ -25,8 +25,8 @@
               </SwiperSlide>
               <SwiperSlide>
                 <div
-                  class="bg-img"
-                  data-background="./assets/imgs/header/s3.jpg"
+                  class="bg-img" 
+                  :data-background="withBase('assets/imgs/header/s3.jpg')" 
                   data-overlay-dark="3"
                 >
                   <a href="/project-details"></a>
@@ -116,6 +116,8 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig();
+const withBase = (path) => config.app.baseURL + path.replace(/^\//, '');
 import { ref, onMounted, watch } from 'vue';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import {

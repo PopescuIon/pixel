@@ -24,7 +24,7 @@
           <div class="item mb-50">
             <div class="bg-blur">
               <div class="img">
-                <img :src="item.img" alt="" />
+                <img :src="getImageUrl(item.img)" alt=""  />
                 <div class="social">
                   <div class="links">
                     <a href="#0">
@@ -77,4 +77,9 @@
 
 <script setup>
 import data from '@/data/team-t';
+
+const baseUrl = useRuntimeConfig().app.baseURL;
+const getImageUrl = (imgPath) => {
+  return `${baseUrl}${imgPath.replace(/^\/+/, '')}`;
+};
 </script>

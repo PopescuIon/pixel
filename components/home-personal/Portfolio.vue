@@ -36,11 +36,11 @@
                     We’re a full stack firm that can help you from strategy to
                     launch, and anywhere in between.
                   </p>
-                  <a href="/project-details" class="underline mt-15">
-                    <span class="text main-color sub-title">
-                      View Details <i class="ti-arrow-top-right"></i>
-                    </span>
-                  </a>
+                  <NuxtLink to="/project-details" class="underline mt-15">
+  <span class="text main-color sub-title">
+    View Details <i class="ti-arrow-top-right"></i>
+  </span>
+</NuxtLink>
                 </div>
               </div>
             </div>

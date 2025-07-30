@@ -26,8 +26,8 @@
           @click="handleActiveSer"
           :class="{ item: true, active: i === 0 }"
         >
-          <div class="icon-img-60">
-            <img :src="item.img" alt="" />
+          <div class="icon-img-60"> 
+            <img :src="getImageUrl(item.img)" alt=""  />
           </div>
           <div>
             <div class="text mb-30">
@@ -47,6 +47,10 @@
 <script setup>
 import data from '@/data/services';
 
+const baseUrl = useRuntimeConfig().app.baseURL;
+const getImageUrl = (imgPath) => {
+  return `${baseUrl}${imgPath.replace(/^\/+/, '')}`;
+};
 function handleActiveSer(event) {
   document.querySelectorAll('.serv-boxs .item').forEach((serv) => {
     serv.classList.remove('active');

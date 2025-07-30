@@ -47,7 +47,8 @@
                 </a>
               </div>
               <div class="img">
-                <img :src="item.img" alt="" class="radius-15" />
+                <img :src="getImageUrl(item.img)" alt="" class="radius-15" />
+
               </div>
             </div>
           </SwiperSlide>
@@ -59,9 +60,17 @@
 </template>
 
 <script setup>
+
 import data from '@/data/portfolios/works1';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Navigation, Pagination } from 'swiper';
+
+const baseUrl = useRuntimeConfig().app.baseURL;
+
+const getImageUrl = (imgPath) => {
+  return `${baseUrl}${imgPath.replace(/^\/+/, '')}`;
+};
+
 const swiperOptions = {
   modules: [Navigation, Pagination],
   centeredSlides: true,

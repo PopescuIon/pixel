@@ -23,7 +23,7 @@
         <div v-for="(item, i) in data" :key="{ i }" class="col-lg-3 col-md-6">
           <div class="item-box radius-15 md-mb50">
             <div class="icon-img-70 mb-40 opacity-3">
-              <img :src="item.img" alt="" />
+              <img :src="getImageUrl(item.img)" alt=""  />
             </div>
             <h6 class="mb-25">{{ item.title }}</h6>
             <p>{{ item.desc.slice(0, 50) }}</p>
@@ -36,4 +36,9 @@
 
 <script setup>
 import data from '@/data/services';
+
+const baseUrl = useRuntimeConfig().app.baseURL;
+const getImageUrl = (imgPath) => {
+  return `${baseUrl}${imgPath.replace(/^\/+/, '')}`;
+};
 </script>

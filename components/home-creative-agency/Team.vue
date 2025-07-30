@@ -46,8 +46,8 @@
                 </div>
               </div>
             </div>
-            <div class="img">
-              <img :src="item.img" alt="" />
+            <div class="img">              
+              <img :src="getImageUrl(item.img)" alt=""  />
             </div>
             <div class="circle-blur">
               <img src="/assets/imgs/patterns/blur1.png" alt="" />
@@ -60,4 +60,9 @@
 </template>
 <script setup>
 import data from '@/data/team-t';
+
+const baseUrl = useRuntimeConfig().app.baseURL;
+const getImageUrl = (imgPath) => {
+  return `${baseUrl}${imgPath.replace(/^\/+/, '')}`;
+};
 </script>

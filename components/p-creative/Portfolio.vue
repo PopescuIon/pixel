@@ -35,6 +35,11 @@
 <script setup>
 import data from '@/data/portfolios/works1';
 import loadBackgroudImages from '@/common/loadBackgroudImages';
+
+const baseUrl = useRuntimeConfig().app.baseURL;
+const getImageUrl = (imgPath) => {
+  return `${baseUrl}${imgPath.replace(/^\/+/, '')}`;
+};
 onMounted(() => {
   loadBackgroudImages();
 });
