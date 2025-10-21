@@ -43,12 +43,12 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg">
-                    <a class="item-img text-center" href="/home-main">
+                    <NuxtLink class="item-img text-center" href="/home-main">
                       <span class="img">
                         <img src="/assets/imgs/menu/1.png" alt="" />
                       </span>
                       <span class="mt-15">Main Home</span>
-                    </a>
+                    </NuxtLink>
                   </div>
                   <div class="col-lg">
                     <a class="item-img text-center" href="/home-modern-studio">
@@ -151,7 +151,7 @@
               <span class="rolling-text">Portfolio</span>
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="/portfolio-gallery"> Gallery </a>
+              <NuxtLink class="dropdown-item" href="/portfolio-gallery"> Gallery </NuxtLink>
               <a class="dropdown-item" href="/portfolio-creative">
                 Portfolio Creative
               </a>
