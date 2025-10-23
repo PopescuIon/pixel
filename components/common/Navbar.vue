@@ -152,15 +152,15 @@
             </a>
             <div class="dropdown-menu">
               <NuxtLink class="dropdown-item" href="/portfolio-gallery"> Gallery </NuxtLink>
-              <a class="dropdown-item" href="/portfolio-creative">
+              <NuxtLink class="dropdown-item" href="/portfolio-creative">
                 Portfolio Creative
-              </a>
-              <a class="dropdown-item" href="/portfolio-creative-carousel">
+              </NuxtLink>
+              <NuxtLink class="dropdown-item" href="/portfolio-creative-carousel">
                 Creative Carousel
-              </a>
-              <a class="dropdown-item" href="/portfolio-grid">
+              </NuxtLink>
+              <NuxtLink class="dropdown-item" href="/portfolio-grid">
                 Portfolio Grid
-              </a>
+              </NuxtLink>
               <a class="dropdown-item" href="/portfolio-masonry">
                 Portfolio Masonry
               </a>
